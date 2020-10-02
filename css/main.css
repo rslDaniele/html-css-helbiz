@@ -18,6 +18,12 @@ body {
   border: 2px solid black;
 }
 
+/* #barramenu{
+  position: fixed;
+  width: inherit;
+  min-height: 150px;
+} */
+
 #jumbotron{
   background-image: url(../img/jumbo.jpg);
   background-repeat: repeat;
@@ -48,9 +54,10 @@ img{
 /* test immagine sovrapposta */
 #punk{
   width: 30%;
-  position: relative;
-  left: 35%;
-  top: 300px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1140px;
 }
 /* test immagine sovrapposta */
 
