@@ -26,6 +26,7 @@ body {
 
 #blocco1{
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #centrali{
@@ -37,9 +38,23 @@ body {
 #centrali1{
   float: left;
   width: 48%;
-  margin-left: 4%; 
+  margin-left: 4%;
 }
 
 img{
   width: 100%;
+}
+
+/* test immagine sovrapposta */
+#punk{
+  width: 30%;
+  position: relative;
+  left: 35%;
+  top: 300px;
+}
+/* test immagine sovrapposta */
+
+#sovrapposto{
+  margin-top: 173px;
+  margin-bottom: 30px;
 }
