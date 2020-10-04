@@ -6,9 +6,8 @@
 }
 
 /* regola debug */
-body {
-  background: orange;
-}
+/* body { */
+  /* background: orange; */
 
 [class*="col-"] {
   float: left;
@@ -64,4 +63,40 @@ img{
 #sovrapposto{
   margin-top: 173px;
   margin-bottom: 30px;
+}
+
+#centralone{
+  background-image: url(../img/jumbo.jpg);
+  background-repeat: repeat;
+  min-height: 366px;
+  margin-bottom: 30px;
+}
+
+#blocco2{
+  margin-top: 30px;
+}
+
+#jumbotron2{
+  background-image: url(../img/jumbo.jpg);
+  background-repeat: repeat;
+  min-height: 366px;
+  margin-top: 30px;
+}
+
+#family{
+
+}
+
+footer{
+  background-color: black;
+}
+
+#foot{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+#fine{
+  margin top: 30px;
+  border-top: 2px solid white;
 }
